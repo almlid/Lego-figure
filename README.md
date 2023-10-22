@@ -4,11 +4,9 @@
 
 The figure is fully scalable and customizable with variables, allowing you to easily adjust its size and colors.
 
-
-
 </br>
 <p align=center>
-   <img width="350" alt="Lego figure preview" src="https://github.com/almlid/Lego-figure/assets/75735113/d4b8f6a4-8400-4abc-8ff1-d3bfd352bf82">
+   <img width="350" alt="Lego figure preview" src="https://github.com/almlid/Lego-figure/assets/75735113/dc6aacc6-f33f-462e-a1f4-e51fb06ef0aa">
 </p>
 <p align=center>
  <em>Preview of the LEGO figure</em>
@@ -37,7 +35,7 @@ All shadows and highlights are automatically calculated from color variables. To
   --color-skin: #fdcc24;
   --color-sweater: #e1181c;
   --color-pants: #0858a8;
-  ...;
+  ...
 }
 ```
 
@@ -53,14 +51,6 @@ The size of all elements is computed relative to the `--width` variable set in t
 
 </br>
 
-## Contributing
-
-Feel free to add an issue or submit a pull request if you have any suggestions or encounter any issues.
-
-If you have any questions or feedback about this project, please reach out.
-
-</br>
-
 ---
 
 ## Disclaimer
@@ -70,3 +60,5 @@ If you have any questions or feedback about this project, please reach out.
 This project, is an independent creation and is not associated with or endorsed by the LEGO Group. LEGO®, the LEGO logo, and related terms are trademarks of the LEGO Group. The LEGO Group has not reviewed or approved this project.
 
 Please note that this project is intended for creative and educational purposes. The use of the term "LEGO" and any related terminology in this project is for descriptive purposes to indicate the design aesthetic or inspiration, and it does not imply any official connection with or endorsement by the LEGO Group.
+
+If you have any questions or feedback about this project, please reach out.
