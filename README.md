@@ -4,6 +4,17 @@
 
 The figure is fully scalable and customizable with variables, allowing you to easily adjust its size and colors.
 
+
+
+</br>
+<p align=center>
+   <img width="350" alt="Lego figure preview" src="https://github.com/almlid/Lego-figure/assets/75735113/d4b8f6a4-8400-4abc-8ff1-d3bfd352bf82">
+</p>
+<p align=center>
+ <em>Preview of the LEGO figure</em>
+</p>
+</br>
+
 ## How to view
 
 1. Clone this repository to your local machine:
@@ -13,6 +24,8 @@ The figure is fully scalable and customizable with variables, allowing you to ea
    ```
 
 2. Open the `lego-figure.html` file in your web browser.
+
+</br>
 
 ## Customisation
 
@@ -38,13 +51,15 @@ The size of all elements is computed relative to the `--width` variable set in t
   }
 ```
 
+</br>
+
 ## Contributing
 
 Feel free to add an issue or submit a pull request if you have any suggestions or encounter any issues.
 
 If you have any questions or feedback about this project, please reach out.
 
-<br></br>
+</br>
 
 ---
 
