@@ -322,13 +322,40 @@
       #right-leg {
         width: 47%;
         height: 100%;
-        box-shadow: inset 0px 10px 10px #00000071;
+        box-shadow: inset -5px 10px 30px #00000071;
         background-image: linear-gradient(
-          color-mix(in srgb, var(--color-pants), #000 40%) 5%,
-          #ffffff0e,
-          color-mix(in srgb, var(--color-pants), #000 40%) 35%,
+          color-mix(in srgb, var(--color-pants), #000 40%) 0%,
+          #ffffff11 15%,
+          color-mix(in srgb, var(--color-pants), #000 50%) 35%,
           var(--color-pants) 40%
         );
+      }
+
+      #left-leg {
+        background-image: radial-gradient(
+            90% 5% at 15% 15%,
+            #ffffff47,
+            #ffffff22 20%,
+            transparent 50%
+          ),
+          radial-gradient(
+            80% 15% at 0% 14%,
+            #ffffff2a,
+            #ffffff22 20%,
+            transparent 50%
+          ),
+          radial-gradient(
+            5% 50% at 0% 60%,
+
+            #ffffff44,
+            transparent 50%
+          ),
+          linear-gradient(
+            color-mix(in srgb, var(--color-pants), #000 40%) 0%,
+            #ffffff11 15%,
+            color-mix(in srgb, var(--color-pants), #000 50%) 35%,
+            var(--color-pants) 40%
+          );
       }
 
       #left-leg::after,
