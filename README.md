@@ -4,9 +4,10 @@
 
 The figure is fully scalable and customizable with variables, allowing you to easily adjust its size and colors.
 
+
 </br>
 <p align=center>
-   <img width="350" alt="Lego figure preview" src="https://github.com/almlid/Lego-figure/assets/75735113/dc6aacc6-f33f-462e-a1f4-e51fb06ef0aa">
+   <img width="350" alt="Lego figure preview" src="https://github.com/almlid/Lego-figure/assets/75735113/13e2d406-aabd-49f9-9458-bafde51c600c">
 </p>
 <p align=center>
  <em>Preview of the LEGO figure</em>
