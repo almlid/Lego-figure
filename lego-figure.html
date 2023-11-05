@@ -12,11 +12,17 @@
         --color-pants: #0858a8;
 
         --width: 500px;
+
+        --base-rem: calc(var(--width) * 0.0025);
       }
 
       #lego-figure-container {
         width: var(--width);
         height: calc(var(--width) * 1.4);
+      }
+
+      html {
+        font-size: var(--base-rem);
       }
 
       ::before,
@@ -44,11 +50,11 @@
       }
 
       #head::before {
-        width: 35%;
+        width: 42%;
         height: 15%;
         margin: -11% auto;
         border-radius: 20%;
-        box-shadow: inset -2px 5px 10px -8px #00000048;
+        box-shadow: inset -2rem 5rem 10rem -8rem #00000048;
         background-image: radial-gradient(
             200% 70% at 50% 6%,
             transparent 15%,
@@ -78,7 +84,7 @@
         width: 36%;
         height: 88%;
         border-radius: 20%;
-        box-shadow: inset -10px -5px 20px -5px #00000048;
+        box-shadow: inset -10rem -5rem 20rem -5rem #00000048;
         background: radial-gradient(
             15% 20% at 15% 15%,
             #ffffffa5,
@@ -106,7 +112,7 @@
         background-color: var(--color-skin);
         position: relative;
         z-index: -2;
-        box-shadow: inset -10px 4px 10px #00000048;
+        box-shadow: inset -10rem 4rem 10rem #00000048;
       }
 
       #eyes {
@@ -158,7 +164,7 @@
       }
 
       #left-upper-arm {
-        box-shadow: inset 0px 5px 15px #00000071;
+        box-shadow: inset 0rem 5rem 12rem #00000071;
         border-radius: 100px 50px 0px 50px;
         margin: 10% 5.5% auto;
         transform: rotateZ(1deg) skewX(-15deg);
@@ -180,7 +186,7 @@
         border-radius: 50px 100px 50px 0px;
         margin: 10% -5.5% auto;
         transform: rotateZ(-1deg) skewX(15deg);
-        box-shadow: inset 2px 2px 15px #0000008b;
+        box-shadow: inset 2rem 2rem 12rem #0000008b;
         background-image: linear-gradient(
           110deg,
           color-mix(in srgb, var(--color-sweater), #000 10%),
@@ -207,14 +213,14 @@
         transform: skewX(3deg);
         border-radius: 100px 100px 50px 50px;
         right: 21%;
-        box-shadow: inset 2px -8px 6px #00000071;
+        box-shadow: inset 2rem -8rem 6rem #00000071;
       }
 
       #right-forearm {
         transform: skewX(-3deg);
         border-radius: 100px 100px 50px 50px;
         right: -31%;
-        box-shadow: inset -2px -8px 6px #00000071;
+        box-shadow: inset -2rem -8rem 6rem #00000071;
       }
 
       #left-hand,
@@ -262,7 +268,7 @@
       }
 
       #torso {
-        border-radius: 5px;
+        border-radius: 5rem;
         width: 46%;
         height: 100%;
         background-color: var(--color-sweater);
@@ -305,7 +311,7 @@
         width: 55%;
         height: 9%;
         margin: 1% auto auto;
-        box-shadow: inset 0px 5px 3px
+        box-shadow: inset 0 5rem 3rem
           color-mix(in srgb, var(--color-pants), #000 30%);
       }
 
@@ -322,7 +328,7 @@
       #right-leg {
         width: 47%;
         height: 100%;
-        box-shadow: inset -5px 10px 30px #00000071;
+        box-shadow: inset -5rem 10rem 30rem #00000071;
         background-image: linear-gradient(
           color-mix(in srgb, var(--color-pants), #000 40%) 0%,
           #ffffff11 15%,
@@ -363,7 +369,7 @@
         width: 103%;
         height: 20%;
         margin: 150% -1.5%;
-        border-radius: 5px 5px 2px 2px;
+        border-radius: 5rem 5rem 2rem 2rem;
         background-image: radial-gradient(
             2% 120% at 0% -30%,
             color-mix(in srgb, var(--color-pants), #fff 50%),
@@ -378,13 +384,14 @@
       }
 
       #leg-joint {
-        height: 30%;
+        height: 36%;
         width: 7%;
-        box-shadow: inset 0px -3px 3px #00000071;
+        box-shadow: inset 0 -2rem 5rem #00000071;
         background-image: linear-gradient(
-          to top,
-          color-mix(in srgb, var(--color-pants), #000 40%) 10%,
-          transparent 60%
+          color-mix(in srgb, var(--color-pants), #000 50%) 0%,
+          #ffffff11 42%,
+          color-mix(in srgb, var(--color-pants), #000 50%) 80%,
+          color-mix(in srgb, var(--color-pants), #000 70%)
         );
       }
     </style>
